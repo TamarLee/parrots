@@ -28,7 +28,18 @@
         <img src="{{ url('image/15.jpg') }}" alt="parrot">
 
         <div class="icon">
-          <div class="hamburger"></div>
+            <div class="innericon">
+                <ul class="navul">
+                    <li class="navli"><a href="#">მთავარი</a></li>
+                    <li class="navli"><a href="#">თუთიყუშები</a></li>
+                    <li class="navli"><a href="#">გალერეა</a></li>
+                    <li class="navli"><a href="#">ბლოგი</a></li>
+                    <li class="navli"><a href="#">კონტაქტი</a></li>
+                </ul>
+            </div>
+            <div class="hamb">
+                <div class="hamburger"></div>
+            </div>
       </div>
 
 

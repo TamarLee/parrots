@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.icon').click(function(){
+	$('.hamb').click(function(){
 		$('.icon').toggleClass('active');
 	})
 })
