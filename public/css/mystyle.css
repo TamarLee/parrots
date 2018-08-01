@@ -1,0 +1,18 @@
+nav {
+	font-family: "ArchyEDT-Bold", sans-serif;
+	font-size: 25px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+	margin-left: 100px;
+	float: right;
+}
+	
+li {
+	display: inline-block;
+	margin-right: 36px;
+}
+
+.clear {
+	clear: right;
+}
