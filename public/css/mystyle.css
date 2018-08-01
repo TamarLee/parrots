@@ -70,11 +70,13 @@ body {
 .active .hamburger:before {
 	top: 0;
 	transform: rotate(45deg);
+	background: #595959;
 }
 
 .active .hamburger:after {
 	top: 0;
 	transform: rotate(135deg);
+	background: #595959;
 }
 
 .navul {

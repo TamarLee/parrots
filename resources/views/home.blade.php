@@ -25,7 +25,7 @@
 
     <header>
 
-        <img src="{{ url('image/15.jpg') }}" alt="parrot">
+        <img class="image-background" src="{{ url('image/15.jpg') }}" alt="parrot">
 
         <div class="icon">
             <div class="innericon">
