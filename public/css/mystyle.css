@@ -1,16 +1,16 @@
 body {
 	background: #fff;
-	overflow: hidden;
+	overflow: auto;
 	margin: 0;
 	padding: 0;
 }
+
 .innericon {
 	position: fixed;
 	top: 0;
 	right: -400px;
 	width: 400px;
 	height: 100%;
-	cursor: pointer;
 	background: #262626;
 	transition: .2s;
 
@@ -26,9 +26,9 @@ body {
 	width: 90px;
 	height: 90px;
 	box-sizing: border-box;
-	cursor: pointer;
 	border: none;
 	outline: none;
+	cursor: pointer;
 }
 .hamburger {
 	width: 50px;
@@ -97,4 +97,72 @@ body {
 	display: block;
 	text-decoration: none;
 	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+nav {
+	position: fixed;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .2s;
+	background: #262626;
+
+}
+
+
+nav .logo {
+	float: left;
+
+}
+
+nav .logo img {
+	width: 120px;
+	transition: .2s;
+	margin-left: 30px;
+}
+
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding-left: 340px;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "ArchyEDT-Bold", sans-serif;
+	font-size: 25px;
+	transition: .2s;
+}
+
+nav ul li a:hover,
+nav ul li a.act {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav.black {
+	top: 0;
+}
+
+section.image-background {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+
+section.content {
+	padding: 100px;
 }

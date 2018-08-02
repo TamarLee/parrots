@@ -6,3 +6,21 @@ $(document).ready(function(){
 		$('.icon').removeClass('active');
 	})
 })
+
+$(window).on('scroll', function(){
+	if ($(window).scrollTop()){
+	
+		$('.icon').removeClass('active');
+	}
+})
+
+
+$(window).on('scroll', function(){
+	if ($(window).scrollTop()){
+	
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+	}
+})
