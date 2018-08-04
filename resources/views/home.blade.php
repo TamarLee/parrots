@@ -26,9 +26,9 @@
     <header>
 
         
-        <section class="image-background">
+        <!-- <section class="image-background">
             <img src="{{ url('image/15.jpg') }}" alt="parrot">
-        </section>
+        </section> -->
 
         <div class="icon">
             <div class="innericon">
@@ -49,7 +49,9 @@
     
     <nav>
         <div class="logo">
-            <img src="{{ url('image/1.jpg') }}">
+            <a href="{{ url('/') }}">
+                <img src="{{ url('image/1.jpg') }}">
+            </a>
             <ul>
                 <li><a href="#" class="act">მთავარი</a></li>
                 <li><a href="#">თუთიყუშები</a></li>
@@ -60,22 +62,118 @@
         </div>
     </nav>
 
-    <section class="content"><p>
-    ფიზიკოსები უკვე დიდი ხანია ამტკიცებენ, რომ მატერიალური სამყარო სხვა არაფერია, თუ არა ენერგიის უზარმაზარი ზღვა, რომელიც გამუდმებით ვიბრირებს. სიმყარე არ არსებობს, იგი ილუზიაა — ესაა კვანტური ფიზიკის საფუძველი .</p>
-    <p>
-        რა იჭერს ამ მუდმივად ცვლად ენერგიას გარკვეული ტიპის საგნებად თუ სხეულებად? საინტერესოა, რატომ ვხედავთ ადამიანს ნაცვლად ვიბრირებადი ენერგიისა? — ისინი ამბობენ, რომ ამას ჩვენი ფიქრები აკეთებენ.
-    </p><p>
-        მაინც როგორ მუშაობს ყველაფერი ეს? გავიხსენოთ კინოფირი, სადაც წამში 24 კადრია, რომლებიც ერთმანეთისაგან პატარა სიცარიელით გამოიყოფა, მაგრამ იმ სიჩქარის გამო, რითაც ერთი კადრი ენაცვლება მეორეს ჩვენი თვალი მოტყუებული რჩება და მას აღვიქვამთ, როგორც მოძრავ გამოსახულებას.
-    </p><p>
-    ტელევიზორის შემთხვევაშიც იგივე პრინციპი მუშაობს — ელექტრონების დიდი რაოდენობა განსაზღვრული წესრიგით ეხეთქება ეკრანს და ქმნის ფორმებისა და მოძრაობის ილუზიას. სწორედ ასე არიან საგნები ჩვენს ირგვლივ.  ის, რაც სიმყარედ გვეჩვენება, სულაც არაა მყარი.</p>
-</section>
-<section class="sec2"></section>
-<section class="content"><p>
-ყველამ ვიცით 5 გრძნობის შესახებ — ხედვა, სმენა, შეხება, სუნი და გემო. ყველა მათგანს აქვს განსხვავებული დიაპაზონი ( მაგ: ძაღლს სმენის სხვა დიაპაზონი აქვს, გველი კი ხედავს სინათლის განსხვავებულ სპექტრს და ა.შ.) სხვა სიტყვებით, ჩვენი შეგრძნებები აღიქვამენ ენერგიის ამ ულევ ზღვას მეტისმეტად ლიმიტირებული გადმოსახედიდან და სწორედ ამის მიხედვით ვაწყობთ საბოლოო სურათს. ეს სურათი ვერ იქნება სრული და ზუსტი, რადგან ადამიანის გრძნობის ორგანოები არაა უნივერსალური,  შეზღუდულია…  ჩვენი აღქმები მხოლოდ ცალმხრივი ინტერპრეტაცია და ილუზიაა.</p>
-<p>
-    ყველა ჩვენი ინტერპრეტაცია უბრალოდ დაფუძვნებულია რეალობის ხედვის შინაგან რუკაზე და არა უპირობო სიმართლეზე. ეს რუკა ადამიანთა მოდგმის კოლექტიური გამოცდილების შედეგადაა შედგენილი.
-</p>
-</section>
+    <div class="pimg1"></div>
+
+    <section class="section section-light">
+        <h2>თუთიყუშები</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+
+
+    <div class="pimg2"></div>
+
+    <section class="section section-dark">
+        <h2>გალერეა</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+
+
+
+    <div class="pimg3"></div>
+
+    <section class="section section-dark">
+        <h2>ბლოგი</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+
+
+    <div class="pimg2"></div>
+
+
+    <section class="section section-dark">
+        <h2>კონტაქტი</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </section>
+
+
+
+    <div class="pimg4"></div>
 </body>
 
 </html>
