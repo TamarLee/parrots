@@ -173,27 +173,32 @@ section.content {
 }
 
 .pimg2 {
-	background-image: url('http://localhost/PapiaSon/public/image/28.jpg');
-	height: 250px;
+	background-image: url('http://localhost/PapiaSon/public/image/7.jpg');
+	height: 350px;
 }
 
 .pimg3 {
 	background-image: url('http://localhost/PapiaSon/public/image/27.jpg');
-	height: 250px;
+	height: 350px;
 }
 
 .pimg4 {
-	background-image: url('http://localhost/PapiaSon/public/image/32.jpg');
-	height: 400px;
+	background-image: url('http://localhost/PapiaSon/public/image/2.jpg');
+	height: 350px;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4 {
+.pimg5 {
+	background-image: url('http://localhost/PapiaSon/public/image/42.jpg');
+	height: 100vh;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
 	width: 100%;
 	background-size: cover;/*
 	position: relative;
 	opacity: 0.7;
-	background-position: center;
-	background-repeat: no-repeat;*/
+	background-position: center;*/
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 

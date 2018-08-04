@@ -144,7 +144,7 @@
     </section>
 
 
-    <div class="pimg2"></div>
+    <div class="pimg4"></div>
 
 
     <section class="section section-dark">
@@ -173,7 +173,7 @@
 
 
 
-    <div class="pimg4"></div>
+    <div class="pimg5"></div>
 </body>
 
 </html>
